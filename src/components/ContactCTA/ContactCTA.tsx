@@ -16,31 +16,62 @@ export function ContactCTA() {
           {/* Brilho de fundo sutil */}
           <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-[#45B3A9]/10 rounded-full blur-[120px] pointer-events-none" />
 
-          {/* Linha Superior: Logo Animada se movimentando (sem redes sociais) */}
-          <div className="flex items-center justify-between pb-8 sm:pb-12">
-            <div className="relative w-48 sm:w-60 h-20 sm:h-24">
-              <Image
-                src="/images/efycaz-logo-animada-teal.svg"
-                alt="EfyCaz Contabilidade"
-                width={240}
-                height={96}
-                unoptimized
-                priority
-                className="w-full h-full object-contain object-left filter drop-shadow-[0_0_20px_rgba(77,182,172,0.3)]"
-              />
+          {/* Linha Superior Equilibrada: Marca Completa + Status e Cobertura */}
+          <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6 pb-8 sm:pb-10 border-b border-white/10">
+            
+            {/* Marca: Logo Vetorial Animada + Nome Oficial da Empresa */}
+            <div className="flex items-center gap-4 sm:gap-5">
+              <div className="relative w-16 h-16 sm:w-20 sm:h-20 shrink-0">
+                <Image
+                  src="/images/efycaz-logo-animada-teal.svg"
+                  alt="EfyCaz Contabilidade"
+                  width={80}
+                  height={80}
+                  unoptimized
+                  priority
+                  className="w-full h-full object-contain filter drop-shadow-[0_0_20px_rgba(77,182,172,0.4)]"
+                />
+              </div>
+              <div className="flex flex-col text-left">
+                <div className="flex items-baseline gap-2.5">
+                  <span className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white tracking-tight">
+                    EfyCaz
+                  </span>
+                  <span className="text-sm sm:text-base font-semibold text-[#45B3A9] tracking-normal">
+                    Contabilidade
+                  </span>
+                </div>
+                <p className="text-xs sm:text-sm text-slate-300 mt-1 max-w-md font-normal leading-relaxed">
+                  Assessoria contábil, fiscal e estratégica de alta precisão para empresas em expansão.
+                </p>
+              </div>
             </div>
+
+            {/* Lado Direito: Preenchimento Harmônico com Status e Contato Direto */}
+            <div className="flex flex-wrap items-center gap-3 sm:gap-4 lg:justify-end">
+              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/5 border border-white/10 text-xs sm:text-sm text-slate-200 backdrop-blur-sm">
+                <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+                <span>Atendimento Digital em Todo o Brasil</span>
+              </div>
+              <a
+                href={company.whatsappUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs sm:text-sm font-semibold text-[#45B3A9] bg-[#45B3A9]/10 hover:bg-[#45B3A9]/20 border border-[#45B3A9]/30 transition-colors"
+              >
+                <span>(61) 3613-8796</span>
+              </a>
+            </div>
+
           </div>
 
           {/* Grid Principal Inferior */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8 items-start pt-8 border-t border-white/10">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8 items-start pt-8 sm:pt-10">
             
             {/* Coluna 1: Proposta de Valor e Botão de Ação */}
             <div className="lg:col-span-4 space-y-4">
               <p className="text-xl sm:text-2xl font-normal text-slate-100 leading-snug max-w-sm">
                 Feito para empresários que buscam crescimento, segurança fiscal e redução de impostos.
-              </p>
-              <p className="text-sm font-bold text-white tracking-wide">
-                EfyCaz Contabilidade
               </p>
 
               <div className="pt-2">
