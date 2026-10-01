@@ -6,6 +6,7 @@ import { ChevronDown, HelpCircle, MessageCircle } from "lucide-react";
 import { faqs, faqSectionData } from "@/data/faq";
 import { company } from "@/data/company";
 import { WhatsAppIcon } from "@/components/Icons/WhatsAppIcon";
+import { assetPath } from "@/utils/assets";
 
 export function FAQ() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
@@ -19,7 +20,7 @@ export function FAQ() {
       {/* Logo Gigante Vetorial Animada Cinza com Mais Destaque no Fundo Claro */}
       <div className="absolute top-1/2 right-[-18%] sm:right-[-10%] -translate-y-1/2 w-[700px] h-[700px] sm:w-[900px] sm:h-[900px] opacity-[0.22] pointer-events-none select-none">
         <Image
-          src="/images/efycaz-logo-animada-cinza.svg"
+          src={assetPath("/images/efycaz-logo-animada-cinza.svg")}
           alt=""
           aria-hidden="true"
           width={900}

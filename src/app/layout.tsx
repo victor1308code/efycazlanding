@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Manrope, Inter } from "next/font/google";
 import "./globals.css";
+import { assetPath } from "@/utils/assets";
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -62,7 +63,7 @@ export const metadata: Metadata = {
       "Serviços contábeis para empresas, empreendedores e profissionais que buscam mais organização e clareza para cuidar do seu negócio.",
     images: [
       {
-        url: "/images/logo-perfil.png",
+        url: assetPath("/images/logo-perfil.png"),
         width: 1080,
         height: 1080,
         alt: "EfyCaz Contabilidade - Logotipo",
@@ -74,12 +75,12 @@ export const metadata: Metadata = {
     title: "EfyCaz Contabilidade | Contabilidade para empresas",
     description:
       "Serviços contábeis para empresas, empreendedores e profissionais que buscam mais organização e clareza para cuidar do seu negócio.",
-    images: ["/images/logo-perfil.png"],
+    images: [assetPath("/images/logo-perfil.png")],
   },
   icons: {
-    icon: "/images/emblema.png",
-    shortcut: "/images/emblema.png",
-    apple: "/images/emblema.png",
+    icon: assetPath("/images/emblema.png"),
+    shortcut: assetPath("/images/emblema.png"),
+    apple: assetPath("/images/emblema.png"),
   },
 };
 

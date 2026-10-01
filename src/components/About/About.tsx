@@ -3,6 +3,7 @@ import Image from "next/image";
 import { CheckCircle2, Shield, MapPin, Building, Check } from "lucide-react";
 import { aboutSectionData } from "@/data/about";
 import { company } from "@/data/company";
+import { assetPath } from "@/utils/assets";
 
 export function About() {
   return (
@@ -10,7 +11,7 @@ export function About() {
       {/* Logo Gigante Vetorial Animada Cinza com Mais Destaque no Fundo Claro */}
       <div className="absolute top-1/2 right-[-18%] sm:right-[-10%] -translate-y-1/2 w-[700px] h-[700px] sm:w-[900px] sm:h-[900px] opacity-[0.22] pointer-events-none select-none">
         <Image
-          src="/images/efycaz-logo-animada-cinza.svg"
+          src={assetPath("/images/efycaz-logo-animada-cinza.svg")}
           alt=""
           aria-hidden="true"
           width={900}
@@ -34,7 +35,7 @@ export function About() {
                 {/* Marca d'água animada do Emblema */}
                 <div className="absolute -right-10 -bottom-10 w-52 h-52 opacity-10 pointer-events-none select-none">
                   <Image
-                    src="/images/emblema.png"
+                    src={assetPath("/images/emblema.png")}
                     alt="Símbolo EfyCaz"
                     fill
                     className="object-contain filter invert brightness-200"
@@ -48,7 +49,7 @@ export function About() {
                     <div className="w-16 h-16 rounded-2xl bg-white/10 backdrop-blur-sm border border-brand-primary/40 p-2.5 flex items-center justify-center shrink-0">
                       <div className="relative w-full h-full">
                         <Image
-                          src="/images/efycaz-logo-header.svg"
+                          src={assetPath("/images/efycaz-logo-header.svg")}
                           alt="Emblema EfyCaz"
                           fill
                           className="object-contain"

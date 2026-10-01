@@ -6,6 +6,7 @@ import Link from "next/link";
 import { Menu, X, ChevronDown, ArrowRight } from "lucide-react";
 import { company } from "@/data/company";
 import { WhatsAppIcon } from "@/components/Icons/WhatsAppIcon";
+import { assetPath } from "@/utils/assets";
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -40,7 +41,7 @@ export function Header() {
         >
           <div className="relative w-8 h-8 sm:w-9 sm:h-9 flex items-center justify-center shrink-0 transition-transform duration-200 group-hover:scale-105">
             <Image
-              src="/images/efycaz-logo-header.svg"
+              src={assetPath("/images/efycaz-logo-header.svg")}
               alt="EfyCaz Contabilidade"
               width={38}
               height={38}
@@ -100,7 +101,7 @@ export function Header() {
           <div className="flex items-center gap-2.5 pb-3 mb-2 border-b border-white/10 px-2">
             <div className="relative w-7 h-7">
               <Image
-                src="/images/efycaz-logo-header.svg"
+                src={assetPath("/images/efycaz-logo-header.svg")}
                 alt="EfyCaz Contabilidade"
                 width={28}
                 height={28}

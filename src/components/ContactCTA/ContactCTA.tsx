@@ -4,6 +4,7 @@ import React from "react";
 import Image from "next/image";
 import { Headphones } from "lucide-react";
 import { company } from "@/data/company";
+import { assetPath } from "@/utils/assets";
 
 export function ContactCTA() {
   return (
@@ -20,7 +21,7 @@ export function ContactCTA() {
           {/* Logo Gigante Vetorial Animada TEAL de Fundo no Card */}
           <div className="absolute -bottom-16 -right-16 w-[450px] h-[450px] sm:w-[550px] sm:h-[550px] opacity-[0.22] pointer-events-none select-none">
             <Image
-              src="/images/efycaz-logo-animada-teal.svg"
+              src={assetPath("/images/efycaz-logo-animada-teal.svg")}
               alt=""
               aria-hidden="true"
               width={550}
@@ -37,7 +38,7 @@ export function ContactCTA() {
             <div className="flex items-center gap-4 sm:gap-5">
               <div className="relative w-16 h-16 sm:w-20 sm:h-20 shrink-0">
                 <Image
-                  src="/images/efycaz-logo-animada-teal.svg"
+                  src={assetPath("/images/efycaz-logo-animada-teal.svg")}
                   alt="EfyCaz Contabilidade"
                   width={80}
                   height={80}

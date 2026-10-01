@@ -3,6 +3,7 @@ import Image from "next/image";
 import { CheckCircle2, ArrowRight } from "lucide-react";
 import { company } from "@/data/company";
 import { WhatsAppIcon } from "@/components/Icons/WhatsAppIcon";
+import { assetPath } from "@/utils/assets";
 
 export function Hero() {
   return (
@@ -16,7 +17,7 @@ export function Hero() {
       {/* LOGO GIGANTE EM SVG ANIMADO VERDE NO FUNDO COM MAIOR DESTAQUE */}
       <div className="absolute top-1/2 right-[-8%] sm:right-[-4%] lg:right-[1%] -translate-y-1/2 w-[650px] h-[650px] sm:w-[850px] sm:h-[850px] lg:w-[1000px] lg:h-[1000px] opacity-[0.25] pointer-events-none select-none">
         <Image
-          src="/images/efycaz-logo-animada-teal.svg"
+          src={assetPath("/images/efycaz-logo-animada-teal.svg")}
           alt=""
           aria-hidden="true"
           width={1000}

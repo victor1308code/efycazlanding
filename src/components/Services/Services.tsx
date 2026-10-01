@@ -11,6 +11,7 @@ import {
 } from "lucide-react";
 import { services } from "@/data/services";
 import { company } from "@/data/company";
+import { assetPath } from "@/utils/assets";
 
 const iconMap: Record<string, React.ElementType> = {
   Calculator,
@@ -33,7 +34,7 @@ export function Services() {
       {/* Logo Gigante Vetorial Animada Cinza na Lateral com Mais Destaque */}
       <div className="absolute top-1/2 left-[-20%] sm:left-[-10%] -translate-y-1/2 w-[700px] h-[700px] sm:w-[900px] sm:h-[900px] opacity-[0.22] pointer-events-none select-none">
         <Image
-          src="/images/efycaz-logo-animada-cinza.svg"
+          src={assetPath("/images/efycaz-logo-animada-cinza.svg")}
           alt=""
           aria-hidden="true"
           width={900}

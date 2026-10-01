@@ -5,6 +5,7 @@ import { Phone, Mail, MapPin, ArrowUp, Building, ShieldCheck } from "lucide-reac
 import { WhatsAppIcon } from "@/components/Icons/WhatsAppIcon";
 import { company } from "@/data/company";
 import { footerNavigation } from "@/data/navigation";
+import { assetPath } from "@/utils/assets";
 
 export function Footer() {
   return (
@@ -12,7 +13,7 @@ export function Footer() {
       {/* Marca d'água sutil no canto inferior do rodapé */}
       <div className="absolute -bottom-16 -right-16 w-64 h-64 opacity-5 pointer-events-none select-none">
         <Image
-          src="/images/emblema.png"
+          src={assetPath("/images/emblema.png")}
           alt="EfyCaz"
           fill
           className="object-contain filter invert"
@@ -32,7 +33,7 @@ export function Footer() {
               aria-label="EfyCaz Contabilidade"
             >
               <Image
-                src="/images/logo-dark.png"
+                src={assetPath("/images/logo-dark.png")}
                 alt="EfyCaz Contabilidade"
                 fill
                 className="object-contain object-left"
@@ -179,7 +180,7 @@ export function Footer() {
           <div className="flex items-center gap-3">
             <div className="relative w-5 h-5">
               <Image
-                src="/images/emblema.png"
+                src={assetPath("/images/emblema.png")}
                 alt="EfyCaz"
                 fill
                 className="object-contain filter invert brightness-200"

@@ -3,6 +3,7 @@ import Image from "next/image";
 import { MessageSquare, FileSearch, CheckCircle, Rocket, ArrowRight } from "lucide-react";
 import { howItWorksSectionData, howItWorksSteps } from "@/data/howItWorks";
 import { company } from "@/data/company";
+import { assetPath } from "@/utils/assets";
 
 const stepIcons = [MessageSquare, FileSearch, CheckCircle, Rocket];
 
@@ -19,7 +20,7 @@ export function HowItWorks() {
           <div className="badge-pill mx-auto">
             <div className="relative w-3.5 h-3.5">
               <Image
-                src="/images/emblema.png"
+                src={assetPath("/images/emblema.png")}
                 alt="EfyCaz"
                 fill
                 className="object-contain filter invert brightness-200"

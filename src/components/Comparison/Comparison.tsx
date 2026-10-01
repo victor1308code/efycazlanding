@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Check, X, ShieldAlert, Sparkles, ArrowRight, Zap } from "lucide-react";
 import { company } from "@/data/company";
 import { WhatsAppIcon } from "@/components/Icons/WhatsAppIcon";
+import { assetPath } from "@/utils/assets";
 
 export function Comparison() {
   return (
@@ -16,7 +17,7 @@ export function Comparison() {
       {/* Logo Gigante Vetorial Animada VERDE no fundo escuro com Mais Destaque */}
       <div className="absolute top-[38%] left-[-15%] sm:left-[-8%] -translate-y-1/2 w-[700px] h-[700px] sm:w-[950px] sm:h-[950px] opacity-[0.25] pointer-events-none select-none">
         <Image
-          src="/images/efycaz-logo-animada-teal.svg"
+          src={assetPath("/images/efycaz-logo-animada-teal.svg")}
           alt=""
           aria-hidden="true"
           width={950}
@@ -112,7 +113,7 @@ export function Comparison() {
             {/* Marca d'água sutil do brasão no fundo */}
             <div className="absolute -bottom-10 -right-10 w-48 h-48 opacity-[0.06] pointer-events-none select-none">
               <Image
-                src="/images/emblema.png"
+                src={assetPath("/images/emblema.png")}
                 alt="EfyCaz Emblema"
                 fill
                 className="object-contain"
@@ -132,7 +133,7 @@ export function Comparison() {
                 </div>
                 <div className="relative w-12 h-12 rounded-2xl bg-[#45B3A9]/15 border border-[#45B3A9]/40 flex items-center justify-center shrink-0 p-2">
                   <Image
-                    src="/images/efycaz-logo-header.svg"
+                    src={assetPath("/images/efycaz-logo-header.svg")}
                     alt="EfyCaz"
                     fill
                     className="object-contain"

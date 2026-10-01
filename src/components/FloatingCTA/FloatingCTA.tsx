@@ -5,6 +5,7 @@ import Image from "next/image";
 import { Phone, ArrowRight, MessageSquare, X } from "lucide-react";
 import { WhatsAppIcon } from "@/components/Icons/WhatsAppIcon";
 import { company } from "@/data/company";
+import { assetPath } from "@/utils/assets";
 
 export function FloatingCTA() {
   const [isVisible, setIsVisible] = useState(false);
@@ -31,7 +32,7 @@ export function FloatingCTA() {
             <div className="flex items-center gap-2.5">
               <div className="relative w-8 h-8 rounded-xl bg-brand-dark p-1 border border-white/10">
                 <Image
-                  src="/images/emblema.png"
+                  src={assetPath("/images/emblema.png")}
                   alt="EfyCaz"
                   fill
                   className="object-contain filter invert brightness-200"
@@ -93,7 +94,7 @@ export function FloatingCTA() {
         {/* Emblema giratório ou pulsante suave com o logo oficial */}
         <div className="relative w-8 h-8 rounded-full bg-white/10 flex items-center justify-center p-1 group-hover:bg-brand-primary/20 transition-colors">
           <Image
-            src="/images/emblema.png"
+            src={assetPath("/images/emblema.png")}
             alt="Emblema EfyCaz"
             fill
             className="object-contain filter invert brightness-200 transition-transform duration-300 group-hover:scale-110"
