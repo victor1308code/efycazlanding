@@ -10,14 +10,15 @@ export function ContactCTA() {
     <section id="contato" className="py-20 sm:py-24 lg:py-28 bg-gradient-to-b from-[#E2E6EE] via-[#222530] to-[#14161E] text-white relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        {/* Card Principal Unificado no Estilo Back4You */}
-        <div className="relative rounded-3xl bg-gradient-to-br from-[#0c2e28] via-[#09221e] to-[#061714] border border-[#45B3A9]/25 p-8 sm:p-12 lg:p-16 shadow-2xl overflow-hidden">
+        {/* Card Principal Unificado nas Cores Oficiais da EfyCaz (Grafite Escuro & Teal) */}
+        <div className="relative rounded-3xl bg-gradient-to-br from-[#262A38] via-[#1E232F] to-[#151720] border border-[#45B3A9]/35 p-8 sm:p-12 lg:p-16 shadow-[0_25px_60px_rgba(0,0,0,0.5),0_0_40px_rgba(69,179,169,0.12)] overflow-hidden">
           
-          {/* Brilho de fundo sutil */}
-          <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-[#45B3A9]/10 rounded-full blur-[120px] pointer-events-none" />
+          {/* Brilhos de fundo sutis nas cores oficiais */}
+          <div className="absolute top-0 right-0 w-[550px] h-[550px] bg-[#45B3A9]/12 rounded-full blur-[130px] pointer-events-none" />
+          <div className="absolute -bottom-24 -left-24 w-[400px] h-[400px] bg-[#45B3A9]/8 rounded-full blur-[110px] pointer-events-none" />
 
-          {/* Logo Gigante Vetorial Animada VERDE de Fundo no Card */}
-          <div className="absolute -bottom-16 -right-16 w-[450px] h-[450px] sm:w-[550px] sm:h-[550px] opacity-[0.20] pointer-events-none select-none">
+          {/* Logo Gigante Vetorial Animada TEAL de Fundo no Card */}
+          <div className="absolute -bottom-16 -right-16 w-[450px] h-[450px] sm:w-[550px] sm:h-[550px] opacity-[0.22] pointer-events-none select-none">
             <Image
               src="/images/efycaz-logo-animada-teal.svg"
               alt="EfyCaz"
@@ -41,7 +42,7 @@ export function ContactCTA() {
                   height={80}
                   unoptimized
                   priority
-                  className="w-full h-full object-contain filter drop-shadow-[0_0_20px_rgba(77,182,172,0.4)]"
+                  className="w-full h-full object-contain filter drop-shadow-[0_0_20px_rgba(77,182,172,0.45)]"
                 />
               </div>
               <div className="flex flex-col text-left">
@@ -62,7 +63,7 @@ export function ContactCTA() {
             {/* Lado Direito: Preenchimento Harmônico com Status e Contato Direto */}
             <div className="flex flex-wrap items-center gap-3 sm:gap-4 lg:justify-end">
               <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/5 border border-white/10 text-xs sm:text-sm text-slate-200 backdrop-blur-sm">
-                <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+                <span className="w-2 h-2 rounded-full bg-[#45B3A9] animate-pulse" />
                 <span>Atendimento Digital em Todo o Brasil</span>
               </div>
               <a
@@ -91,7 +92,7 @@ export function ContactCTA() {
                   href={company.whatsappUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-sm font-bold bg-[#128D84] hover:bg-[#19AFA4] text-white transition-all duration-300 shadow-[0_0_20px_rgba(18,141,132,0.35)] hover:shadow-[0_0_30px_rgba(25,175,164,0.5)] active:scale-95 border border-white/20"
+                  className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-sm font-bold bg-gradient-to-r from-[#45B3A9] to-[#2B9E93] hover:from-[#4DB6AC] hover:to-[#36AAA0] text-white transition-all duration-300 shadow-[0_0_25px_rgba(69,179,169,0.4)] hover:shadow-[0_0_35px_rgba(77,182,172,0.6)] active:scale-95 border border-white/20"
                 >
                   <span>Agendar avaliação</span>
                   <span className="font-bold text-base ml-0.5">›</span>
@@ -148,7 +149,7 @@ export function ContactCTA() {
 
             {/* Coluna 4: Card de Contato Direto */}
             <div className="lg:col-span-4">
-              <div className="bg-[#051713]/90 rounded-2xl p-6 sm:p-7 border border-white/10 shadow-inner flex flex-col justify-between space-y-6">
+              <div className="bg-[#181A24]/90 rounded-2xl p-6 sm:p-7 border border-white/10 shadow-inner flex flex-col justify-between space-y-6">
                 <div>
                   <h4 className="text-base font-bold text-white mb-2">Contato</h4>
                   <a
@@ -163,7 +164,7 @@ export function ContactCTA() {
                   href={company.whatsappUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="rounded-xl border border-white/15 bg-white/5 hover:bg-[#128D84]/20 hover:border-[#45B3A9]/40 p-5 flex flex-col items-center justify-center gap-2.5 transition-all duration-300 group"
+                  className="rounded-xl border border-white/15 bg-white/5 hover:bg-[#45B3A9]/15 hover:border-[#45B3A9]/50 p-5 flex flex-col items-center justify-center gap-2.5 transition-all duration-300 group"
                 >
                   <Headphones className="w-6 h-6 text-[#45B3A9] group-hover:scale-110 transition-transform" />
                   <span className="text-sm font-bold text-white">Fale conosco</span>
