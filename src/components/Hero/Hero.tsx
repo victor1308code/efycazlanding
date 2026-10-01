@@ -17,7 +17,8 @@ export function Hero() {
       <div className="absolute top-1/2 right-[-8%] sm:right-[-4%] lg:right-[1%] -translate-y-1/2 w-[650px] h-[650px] sm:w-[850px] sm:h-[850px] lg:w-[1000px] lg:h-[1000px] opacity-[0.25] pointer-events-none select-none">
         <Image
           src="/images/efycaz-logo-animada-teal.svg"
-          alt="EfyCaz Contabilidade"
+          alt=""
+          aria-hidden="true"
           width={1000}
           height={1000}
           unoptimized

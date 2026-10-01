@@ -6,12 +6,13 @@ import { company } from "@/data/company";
 
 export function About() {
   return (
-    <section id="sobre" className="py-24 lg:py-32 bg-gradient-to-b from-[#F5F7FA] via-[#F8F9FA] to-[#ECEEF3] relative overflow-hidden">
+    <section id="sobre" className="pt-10 sm:pt-14 lg:pt-16 pb-24 lg:pb-32 bg-gradient-to-b from-[#F5F7FA] via-[#F8F9FA] to-[#ECEEF3] relative overflow-hidden">
       {/* Logo Gigante Vetorial Animada Cinza com Mais Destaque no Fundo Claro */}
       <div className="absolute top-1/2 right-[-18%] sm:right-[-10%] -translate-y-1/2 w-[700px] h-[700px] sm:w-[900px] sm:h-[900px] opacity-[0.22] pointer-events-none select-none">
         <Image
           src="/images/efycaz-logo-animada-cinza.svg"
-          alt="EfyCaz"
+          alt=""
+          aria-hidden="true"
           width={900}
           height={900}
           unoptimized

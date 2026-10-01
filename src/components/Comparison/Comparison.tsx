@@ -6,21 +6,25 @@ import { WhatsAppIcon } from "@/components/Icons/WhatsAppIcon";
 
 export function Comparison() {
   return (
-    <section id="comparativo" className="py-24 lg:py-32 bg-gradient-to-b from-[#E9ECF1] via-[#242733] to-[#1E2028] relative overflow-hidden">
+    <section
+      id="comparativo"
+      className="pt-24 lg:pt-32 pb-32 lg:pb-44 relative overflow-hidden"
+      style={{
+        background: "linear-gradient(to bottom, #E9ECF1 0%, #262A37 10%, #1F222C 20%, #1E2028 55%, #272C3B 65%, #3C4254 74%, #5E667B 82%, #8E97AB 89%, #C6CDD9 95%, #F5F7FA 100%)",
+      }}
+    >
       {/* Logo Gigante Vetorial Animada VERDE no fundo escuro com Mais Destaque */}
-      <div className="absolute top-1/2 left-[-15%] sm:left-[-8%] -translate-y-1/2 w-[700px] h-[700px] sm:w-[950px] sm:h-[950px] opacity-[0.25] pointer-events-none select-none">
+      <div className="absolute top-[38%] left-[-15%] sm:left-[-8%] -translate-y-1/2 w-[700px] h-[700px] sm:w-[950px] sm:h-[950px] opacity-[0.25] pointer-events-none select-none">
         <Image
           src="/images/efycaz-logo-animada-teal.svg"
-          alt="EfyCaz"
+          alt=""
+          aria-hidden="true"
           width={950}
           height={950}
           unoptimized
           className="w-full h-full object-contain filter drop-shadow-[0_0_35px_rgba(69,179,169,0.35)]"
         />
       </div>
-
-      {/* Transição suave em degradê na base da seção */}
-      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-b from-transparent to-[#F5F7FA] pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         

@@ -21,7 +21,8 @@ export function ContactCTA() {
           <div className="absolute -bottom-16 -right-16 w-[450px] h-[450px] sm:w-[550px] sm:h-[550px] opacity-[0.22] pointer-events-none select-none">
             <Image
               src="/images/efycaz-logo-animada-teal.svg"
-              alt="EfyCaz"
+              alt=""
+              aria-hidden="true"
               width={550}
               height={550}
               unoptimized

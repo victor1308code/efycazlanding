@@ -60,7 +60,8 @@ export function Benefits() {
       <div className="absolute top-1/2 right-[-20%] sm:right-[-10%] -translate-y-1/2 w-[700px] h-[700px] sm:w-[900px] sm:h-[900px] opacity-[0.22] pointer-events-none select-none">
         <Image
           src="/images/efycaz-logo-animada-cinza.svg"
-          alt="EfyCaz"
+          alt=""
+          aria-hidden="true"
           width={900}
           height={900}
           unoptimized
