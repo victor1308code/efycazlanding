@@ -14,7 +14,7 @@ export function Footer() {
       <div className="absolute -bottom-16 -right-16 w-64 h-64 opacity-5 pointer-events-none select-none">
         <Image
           src={assetPath("/images/emblema.png")}
-          alt="EfyCaz"
+          alt="Efycaz"
           fill
           className="object-contain filter invert"
           sizes="256px"
@@ -30,11 +30,11 @@ export function Footer() {
             <Link
               href="#inicio"
               className="inline-block relative h-14 w-52 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-primary rounded"
-              aria-label="EfyCaz Contabilidade"
+              aria-label="Efycaz Contabilidade"
             >
               <Image
                 src={assetPath("/images/logo-dark.png")}
-                alt="EfyCaz Contabilidade"
+                alt="Efycaz Contabilidade"
                 fill
                 className="object-contain object-left"
                 sizes="208px"
@@ -181,13 +181,13 @@ export function Footer() {
             <div className="relative w-5 h-5">
               <Image
                 src={assetPath("/images/emblema.png")}
-                alt="EfyCaz"
+                alt="Efycaz"
                 fill
                 className="object-contain filter invert brightness-200"
                 sizes="20px"
               />
             </div>
-            <p>© {company.copyrightYear} EfyCaz Contabilidade. Todos os direitos reservados.</p>
+            <p>© {company.copyrightYear} Efycaz Contabilidade. Todos os direitos reservados.</p>
           </div>
 
           <a

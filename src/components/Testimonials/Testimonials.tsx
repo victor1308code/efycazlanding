@@ -7,13 +7,13 @@ const testimonials = [
     id: 1,
     name: "Dr. Roberto Almeida",
     role: "Diretor da Clínica Vida",
-    text: "Antes da EfyCaz, pagávamos quase o dobro de impostos sem saber. A revisão que fizeram salvou nosso fluxo de caixa. O atendimento pelo WhatsApp é um diferencial gigante.",
+    text: "Antes da Efycaz, pagávamos quase o dobro de impostos sem saber. A revisão que fizeram salvou nosso fluxo de caixa. O atendimento pelo WhatsApp é um diferencial gigante.",
   },
   {
     id: 2,
     name: "Ana Carla Fernandes",
     role: "CEO da TechSolutions",
-    text: "Trocar de contabilidade sempre foi um pesadelo, mas o time da EfyCaz fez a transição em dias. O dashboard de controle que eles nos passam todo mês mudou nossa visão do negócio.",
+    text: "Trocar de contabilidade sempre foi um pesadelo, mas o time da Efycaz fez a transição em dias. O dashboard de controle que eles nos passam todo mês mudou nossa visão do negócio.",
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ const testimonials = [
     id: 4,
     name: "Juliana Mendes",
     role: "Empreendedora Digital",
-    text: "Para quem trabalha no digital, achar uma contabilidade que entenda de infoprodutos é raro. A EfyCaz resolveu minha regularização em tempo recorde.",
+    text: "Para quem trabalha no digital, achar uma contabilidade que entenda de infoprodutos é raro. A Efycaz resolveu minha regularização em tempo recorde.",
   }
 ];
 

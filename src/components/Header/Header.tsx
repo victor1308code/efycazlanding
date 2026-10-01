@@ -37,12 +37,12 @@ export function Header() {
         <Link
           href="#inicio"
           className="flex items-center gap-2.5 group focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-primary rounded-full pl-1 shrink-0"
-          aria-label="EfyCaz Contabilidade"
+          aria-label="Efycaz Contabilidade"
         >
           <div className="relative w-8 h-8 sm:w-9 sm:h-9 flex items-center justify-center shrink-0 transition-transform duration-200 group-hover:scale-105">
             <Image
               src={assetPath("/images/efycaz-logo-header.svg")}
-              alt="EfyCaz Contabilidade"
+              alt="Efycaz Contabilidade"
               width={38}
               height={38}
               unoptimized
@@ -52,7 +52,7 @@ export function Header() {
           </div>
           <div className="flex flex-col text-left leading-none">
             <span className="text-base sm:text-lg font-extrabold tracking-tight text-white group-hover:text-[#45B3A9] transition-colors">
-              EfyCaz
+              Efycaz
             </span>
             <span className="text-[9px] sm:text-[10px] font-semibold text-[#45B3A9] tracking-wider uppercase">
               Contabilidade
@@ -102,7 +102,7 @@ export function Header() {
             <div className="relative w-7 h-7">
               <Image
                 src={assetPath("/images/efycaz-logo-header.svg")}
-                alt="EfyCaz Contabilidade"
+                alt="Efycaz Contabilidade"
                 width={28}
                 height={28}
                 unoptimized
@@ -110,7 +110,7 @@ export function Header() {
               />
             </div>
             <div>
-              <span className="text-base font-extrabold text-white">EfyCaz</span>
+              <span className="text-base font-extrabold text-white">Efycaz</span>
               <span className="block text-[9px] font-semibold text-[#45B3A9] tracking-wider uppercase">Contabilidade</span>
             </div>
           </div>

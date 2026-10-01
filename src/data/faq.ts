@@ -15,19 +15,19 @@ export const faqSectionData = {
 
 export const faqs: FAQItem[] = [
   {
-    question: "Qual a diferença entre a contabilidade tradicional e o serviço da EfyCaz?",
+    question: "Qual a diferença entre a contabilidade tradicional e o serviço da Efycaz?",
     answer:
-      "A contabilidade tradicional geralmente limita-se ao cumprimento básico de obrigações e envio de guias de impostos nos últimos dias do mês. A EfyCaz vai além: atuamos com planejamento tributário preventivo para evitar que você pague tributos indevidos, atendimento humanizado e ágil diretamente no WhatsApp oficial, e relatórios claros para ajudar você a tomar decisões financeiras com segurança.",
+      "A contabilidade tradicional geralmente limita-se ao cumprimento básico de obrigações e envio de guias de impostos nos últimos dias do mês. A Efycaz vai além: atuamos com planejamento tributário preventivo para evitar que você pague tributos indevidos, atendimento humanizado e ágil diretamente no WhatsApp oficial, e relatórios claros para ajudar você a tomar decisões financeiras com segurança.",
   },
   {
-    question: "Como a EfyCaz me ajuda a pagar menos impostos de forma legal?",
+    question: "Como a Efycaz me ajuda a pagar menos impostos de forma legal?",
     answer:
       "Analisamos minuciosamente o seu CNAE, folha de pagamento, estrutura de receitas e todas as deduções permitidas pela legislação (Simples Nacional, Lucro Presumido ou Real). Um planejamento tributário individualizado identifica distorções e garante que sua empresa pague apenas a alíquota justa, sem correr riscos fiscais.",
   },
   {
-    question: "Como funciona para trocar de contador para a EfyCaz?",
+    question: "Como funciona para trocar de contador para a Efycaz?",
     answer:
-      "A troca de contabilidade é um direito da sua empresa e pode ser feita em qualquer época do ano. A equipe da EfyCaz conduz toda a transição e a transferência da documentação fiscal e contábil diretamente junto ao profissional ou escritório anterior, de forma ética, ágil e sem atrito ou desgaste para você.",
+      "A troca de contabilidade é um direito da sua empresa e pode ser feita em qualquer época do ano. A equipe da Efycaz conduz toda a transição e a transferência da documentação fiscal e contábil diretamente junto ao profissional ou escritório anterior, de forma ética, ágil e sem atrito ou desgaste para você.",
   },
   {
     question: "Vocês atendem MEI, autônomos e empresas de serviços?",

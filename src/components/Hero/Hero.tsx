@@ -36,7 +36,7 @@ export function Hero() {
           
           {/* Título Principal com Marca em Destaque Animado */}
           <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-[1.15]">
-            <span className="efycaz-highlight-text">EfyCaz</span>: a contabilidade que cuida do seu imposto para{" "}
+            <span className="efycaz-highlight-text">Efycaz</span>: a contabilidade que cuida do seu imposto para{" "}
             <span className="text-[#45B3A9]">
               sua empresa lucrar mais.
             </span>
@@ -44,7 +44,7 @@ export function Hero() {
 
           {/* Subtítulo Acolhedor e Direto */}
           <p className="text-base sm:text-lg text-slate-300 leading-relaxed font-normal max-w-2xl">
-            Cansado de falar com robôs e pagar guias sem entender? Na <strong className="text-white font-semibold">EfyCaz Contabilidade</strong>, você tem contadores especialistas que acompanham seu dia a dia pelo WhatsApp, reduzem sua carga tributária e mantêm seu CNPJ 100% blindado.
+            Cansado de falar com robôs e pagar guias sem entender? Na <strong className="text-white font-semibold">Efycaz Contabilidade</strong>, você tem contadores especialistas que acompanham seu dia a dia pelo WhatsApp, reduzem sua carga tributária e mantêm seu CNPJ 100% blindado.
           </p>
 
           {/* Chamada para Ação (CTAs Comerciais) */}

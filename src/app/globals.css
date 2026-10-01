@@ -337,7 +337,7 @@ body {
   animation: sweepReveal 4s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
 }
 
-/* Animação Luminosa e Fluida para a Marca EfyCaz no Texto */
+/* Animação Luminosa e Fluida para a Marca Efycaz no Texto */
 @keyframes textGlowShimmer {
   0% {
     background-position: 0% 50%;

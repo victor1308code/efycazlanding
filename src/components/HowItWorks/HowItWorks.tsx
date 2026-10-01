@@ -21,7 +21,7 @@ export function HowItWorks() {
             <div className="relative w-3.5 h-3.5">
               <Image
                 src={assetPath("/images/emblema.png")}
-                alt="EfyCaz"
+                alt="Efycaz"
                 fill
                 className="object-contain filter invert brightness-200"
                 sizes="14px"

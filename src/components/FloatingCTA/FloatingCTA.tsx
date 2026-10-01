@@ -33,14 +33,14 @@ export function FloatingCTA() {
               <div className="relative w-8 h-8 rounded-xl bg-brand-dark p-1 border border-white/10">
                 <Image
                   src={assetPath("/images/emblema.png")}
-                  alt="EfyCaz"
+                  alt="Efycaz"
                   fill
                   className="object-contain filter invert brightness-200"
                   sizes="32px"
                 />
               </div>
               <div>
-                <p className="text-xs font-bold text-white">EfyCaz Contabilidade</p>
+                <p className="text-xs font-bold text-white">Efycaz Contabilidade</p>
                 <p className="text-[10px] text-emerald-400 font-semibold flex items-center gap-1">
                   <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
                   WhatsApp Online: {company.whatsapp}
@@ -85,17 +85,17 @@ export function FloatingCTA() {
         </div>
       )}
 
-      {/* Botão de Disparo Flutuante com Selo da EfyCaz */}
+      {/* Botão de Disparo Flutuante com Selo da Efycaz */}
       <button
         onClick={() => setIsExpanded(!isExpanded)}
         className="group relative flex items-center gap-3 bg-brand-dark hover:bg-brand-deep text-white pl-3.5 pr-4 py-2.5 rounded-full shadow-elevated border-2 border-brand-primary transition-all duration-300 active:scale-95 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-primary"
-        aria-label="Abrir opções de atendimento rápido da EfyCaz"
+        aria-label="Abrir opções de atendimento rápido da Efycaz"
       >
         {/* Emblema giratório ou pulsante suave com o logo oficial */}
         <div className="relative w-8 h-8 rounded-full bg-white/10 flex items-center justify-center p-1 group-hover:bg-brand-primary/20 transition-colors">
           <Image
             src={assetPath("/images/emblema.png")}
-            alt="Emblema EfyCaz"
+            alt="Emblema Efycaz"
             fill
             className="object-contain filter invert brightness-200 transition-transform duration-300 group-hover:scale-110"
             sizes="32px"
@@ -104,7 +104,7 @@ export function FloatingCTA() {
 
         <div className="text-left">
           <span className="block text-[10px] uppercase font-bold tracking-wider text-brand-primary">
-            EfyCaz Contábil
+            Efycaz Contábil
           </span>
           <span className="block text-xs font-semibold text-white">
             {isExpanded ? "Fechar" : "Atendimento Rápido"}

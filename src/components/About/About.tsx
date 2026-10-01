@@ -36,7 +36,7 @@ export function About() {
                 <div className="absolute -right-10 -bottom-10 w-52 h-52 opacity-10 pointer-events-none select-none">
                   <Image
                     src={assetPath("/images/emblema.png")}
-                    alt="Símbolo EfyCaz"
+                    alt="Símbolo Efycaz"
                     fill
                     className="object-contain filter invert brightness-200"
                     sizes="208px"
@@ -44,13 +44,13 @@ export function About() {
                 </div>
 
                 <div className="relative z-10 space-y-6">
-                  {/* Selo e Logo Oficial da EfyCaz */}
+                  {/* Selo e Logo Oficial da Efycaz */}
                   <div className="flex items-center gap-4">
                     <div className="w-16 h-16 rounded-2xl bg-white/10 backdrop-blur-sm border border-brand-primary/40 p-2.5 flex items-center justify-center shrink-0">
                       <div className="relative w-full h-full">
                         <Image
                           src={assetPath("/images/efycaz-logo-header.svg")}
-                          alt="Emblema EfyCaz"
+                          alt="Emblema Efycaz"
                           fill
                           className="object-contain"
                           sizes="64px"
@@ -59,7 +59,7 @@ export function About() {
                     </div>
 
                     <div>
-                      <span className="text-xl font-extrabold text-white block">EfyCaz</span>
+                      <span className="text-xl font-extrabold text-white block">Efycaz</span>
                       <span className="text-xs font-semibold text-[#45B3A9] tracking-wider uppercase">Contabilidade</span>
                     </div>
                   </div>
@@ -143,7 +143,7 @@ export function About() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2.5 px-8 py-3.5 rounded-full text-sm font-bold bg-gradient-to-r from-[#45B3A9] to-[#2B9E93] hover:from-[#4DB6AC] hover:to-[#36AAA0] text-white transition-all shadow-[0_0_20px_rgba(69,179,169,0.3)] hover:shadow-[0_0_25px_rgba(77,182,172,0.45)] active:scale-95"
               >
-                <span>Falar com a Equipe EfyCaz</span>
+                <span>Falar com a Equipe Efycaz</span>
                 <span className="w-5 h-5 rounded-full bg-white/20 flex items-center justify-center text-xs">
                   →
                 </span>

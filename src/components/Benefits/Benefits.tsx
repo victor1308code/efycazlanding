@@ -9,7 +9,7 @@ const benefitsData = [
     tag: "01 • Centralização & Dados",
     title: "Controle seus dados fiscais e financeiros em um só lugar",
     description:
-      "A EfyCaz ajuda você a centralizar notas fiscais, despesas, faturamento e tributos em um painel claro. Tenha visão diária das entradas, saídas e previsibilidade de caixa sem planilhas confusas.",
+      "A Efycaz ajuda você a centralizar notas fiscais, despesas, faturamento e tributos em um painel claro. Tenha visão diária das entradas, saídas e previsibilidade de caixa sem planilhas confusas.",
     points: [
       "Notas fiscais organizadas e apuração automática",
       "Visibilidade clara de faturamento e lucro líquido",
@@ -45,7 +45,7 @@ const benefitsData = [
     tag: "04 • Suporte Dedicado",
     title: "Fale diretamente com um consultor pelo WhatsApp",
     description:
-      "Nada de tickets que demoram dias para serem respondidos. Na EfyCaz, você conversa diretamente com nossa equipe especializada no WhatsApp oficial para tirar dúvidas rápidas e receber suas guias com tranquilidade.",
+      "Nada de tickets que demoram dias para serem respondidos. Na Efycaz, você conversa diretamente com nossa equipe especializada no WhatsApp oficial para tirar dúvidas rápidas e receber suas guias com tranquilidade.",
     points: [
       "Respostas rápidas para emissão de guias e notas",
       "Especialistas em plantão durante horário comercial",
@@ -72,7 +72,7 @@ export function Benefits() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-3xl mx-auto text-center space-y-4 mb-12 sm:mb-14 fade-in-section">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#45B3A9]/15 border border-[#45B3A9]/30 text-xs font-bold text-[#1E7068] tracking-wider uppercase">
-            <span>Diferenciais EfyCaz</span>
+            <span>Diferenciais Efycaz</span>
           </div>
 
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-slate-900 leading-tight">
@@ -189,7 +189,7 @@ export function Benefits() {
 
                     <div className="absolute bottom-4 right-6 flex items-center gap-2 opacity-30">
                       <div className="w-3 h-3 rounded-full bg-brand-primary" />
-                      <span className="text-[10px] font-bold text-white tracking-widest uppercase">Padrão EfyCaz</span>
+                      <span className="text-[10px] font-bold text-white tracking-widest uppercase">Padrão Efycaz</span>
                     </div>
                   </div>
                 </div>

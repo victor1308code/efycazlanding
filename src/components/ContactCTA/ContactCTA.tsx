@@ -11,7 +11,7 @@ export function ContactCTA() {
     <section id="contato" className="pt-12 sm:pt-14 lg:pt-16 pb-16 sm:pb-20 lg:pb-24 bg-gradient-to-b from-[#E2E6EE] via-[#222530] to-[#14161E] text-white relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        {/* Card Principal Unificado nas Cores Oficiais da EfyCaz (Grafite Escuro & Teal) */}
+        {/* Card Principal Unificado nas Cores Oficiais da Efycaz (Grafite Escuro & Teal) */}
         <div className="relative rounded-3xl bg-gradient-to-br from-[#262A38] via-[#1E232F] to-[#151720] border border-[#45B3A9]/35 p-8 sm:p-12 lg:p-16 shadow-[0_25px_60px_rgba(0,0,0,0.5),0_0_40px_rgba(69,179,169,0.12)] overflow-hidden">
           
           {/* Brilhos de fundo sutis nas cores oficiais */}
@@ -39,7 +39,7 @@ export function ContactCTA() {
               <div className="relative w-16 h-16 sm:w-20 sm:h-20 shrink-0">
                 <Image
                   src={assetPath("/images/efycaz-logo-animada-teal.svg")}
-                  alt="EfyCaz Contabilidade"
+                  alt="Efycaz Contabilidade"
                   width={80}
                   height={80}
                   unoptimized
@@ -50,7 +50,7 @@ export function ContactCTA() {
               <div className="flex flex-col text-left">
                 <div className="flex items-baseline gap-2.5">
                   <span className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white tracking-tight">
-                    EfyCaz
+                    Efycaz
                   </span>
                   <span className="text-sm sm:text-base font-semibold text-[#45B3A9] tracking-normal">
                     Contabilidade
@@ -178,7 +178,7 @@ export function ContactCTA() {
 
           {/* Rodapé com Informações Oficiais e CNPJ */}
           <div className="mt-12 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-400 gap-4 text-center sm:text-left">
-            <span>© 2026 EfyCaz Contabilidade. Todos os direitos reservados.</span>
+            <span>© 2026 Efycaz Contabilidade. Todos os direitos reservados.</span>
             <span>CNPJ: {company.cnpj} • CNAE: {company.cnae}</span>
           </div>
 

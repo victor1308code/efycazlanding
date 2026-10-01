@@ -20,7 +20,7 @@ export const benefits: BenefitItem[] = [
     number: "01",
     title: "Controle seus dados e documentos",
     description:
-      "A EfyCaz centraliza e organiza notas fiscais, despesas, faturamento e tributos em um fluxo simples e transparente, sem perda de prazos.",
+      "A Efycaz centraliza e organiza notas fiscais, despesas, faturamento e tributos em um fluxo simples e transparente, sem perda de prazos.",
     iconName: "BarChart3",
     badge: "Visibilidade Total",
   },

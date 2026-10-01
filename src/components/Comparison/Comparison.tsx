@@ -108,13 +108,13 @@ export function Comparison() {
             </div>
           </div>
 
-          {/* Card 2: EfyCaz Contabilidade (Destaque Premium Branco com borda Verde) */}
+          {/* Card 2: Efycaz Contabilidade (Destaque Premium Branco com borda Verde) */}
           <div className="rounded-3xl p-8 sm:p-10 bg-white border-2 border-[#45B3A9] flex flex-col justify-between relative overflow-hidden shadow-2xl">
             {/* Marca d'água sutil do brasão no fundo */}
             <div className="absolute -bottom-10 -right-10 w-48 h-48 opacity-[0.06] pointer-events-none select-none">
               <Image
                 src={assetPath("/images/emblema.png")}
-                alt="EfyCaz Emblema"
+                alt="Efycaz Emblema"
                 fill
                 className="object-contain"
                 sizes="192px"
@@ -125,16 +125,16 @@ export function Comparison() {
               <div className="flex items-center justify-between pb-6 mb-6 border-b border-slate-100">
                 <div>
                   <span className="text-xs font-bold uppercase tracking-wider text-white bg-[#128D84] px-3.5 py-1 rounded-full shadow-xs">
-                    Padrão EfyCaz
+                    Padrão Efycaz
                   </span>
                   <h3 className="text-xl sm:text-2xl font-bold text-slate-900 mt-3">
-                    Com a EfyCaz Contabilidade
+                    Com a Efycaz Contabilidade
                   </h3>
                 </div>
                 <div className="relative w-12 h-12 rounded-2xl bg-[#45B3A9]/15 border border-[#45B3A9]/40 flex items-center justify-center shrink-0 p-2">
                   <Image
                     src={assetPath("/images/efycaz-logo-header.svg")}
-                    alt="EfyCaz"
+                    alt="Efycaz"
                     fill
                     className="object-contain"
                     sizes="36px"
@@ -191,7 +191,7 @@ export function Comparison() {
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-2.5 rounded-full text-xs font-bold bg-[#128D84] hover:bg-[#19AFA4] text-white transition-all shadow-md active:scale-95"
               >
                 <WhatsAppIcon className="w-4 h-4 text-white" />
-                <span>Migrar para a EfyCaz</span>
+                <span>Migrar para a Efycaz</span>
               </a>
             </div>
           </div>

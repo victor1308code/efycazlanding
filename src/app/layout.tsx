@@ -24,12 +24,12 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://efycazcontabilidade.com.br"),
-  title: "EfyCaz Contabilidade | Contabilidade para empresas",
+  title: "Efycaz Contabilidade | Contabilidade para empresas",
   description:
     "Serviços contábeis para empresas, empreendedores e profissionais que buscam mais organização e clareza para cuidar do seu negócio.",
   keywords: [
     "contabilidade",
-    "EfyCaz Contabilidade",
+    "Efycaz Contabilidade",
     "contabilidade para empresas",
     "assessoria fiscal",
     "abertura de empresa",
@@ -39,9 +39,9 @@ export const metadata: Metadata = {
     "microempresa",
     "Águas Lindas de Goiás",
   ],
-  authors: [{ name: "EfyCaz Contabilidade" }],
-  creator: "EfyCaz Contabilidade",
-  publisher: "EfyCaz Contabilidade",
+  authors: [{ name: "Efycaz Contabilidade" }],
+  creator: "Efycaz Contabilidade",
+  publisher: "Efycaz Contabilidade",
   robots: {
     index: true,
     follow: true,
@@ -57,8 +57,8 @@ export const metadata: Metadata = {
     type: "website",
     locale: "pt_BR",
     url: "https://efycazcontabilidade.com.br",
-    siteName: "EfyCaz Contabilidade",
-    title: "EfyCaz Contabilidade | Contabilidade para empresas",
+    siteName: "Efycaz Contabilidade",
+    title: "Efycaz Contabilidade | Contabilidade para empresas",
     description:
       "Serviços contábeis para empresas, empreendedores e profissionais que buscam mais organização e clareza para cuidar do seu negócio.",
     images: [
@@ -66,13 +66,13 @@ export const metadata: Metadata = {
         url: assetPath("/images/logo-perfil.png"),
         width: 1080,
         height: 1080,
-        alt: "EfyCaz Contabilidade - Logotipo",
+        alt: "Efycaz Contabilidade - Logotipo",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "EfyCaz Contabilidade | Contabilidade para empresas",
+    title: "Efycaz Contabilidade | Contabilidade para empresas",
     description:
       "Serviços contábeis para empresas, empreendedores e profissionais que buscam mais organização e clareza para cuidar do seu negócio.",
     images: [assetPath("/images/logo-perfil.png")],

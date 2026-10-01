@@ -8,21 +8,21 @@ import { CompanyInfo } from "@/types";
  * Altere as constantes abaixo para atualizar o site em um único local.
  */
 
-// Link principal de conversão (WhatsApp Oficial EfyCaz)
+// Link principal de conversão (WhatsApp Oficial Efycaz)
 export const WHATSAPP_NUMBER = "(61) 3613-8796";
 export const WHATSAPP_RAW = "556136138796";
-export const WHATSAPP_URL = "https://wa.me/556136138796?text=Ol%C3%A1%2C%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os%20da%20EfyCaz%20Contabilidade.";
+export const WHATSAPP_URL = "https://wa.me/556136138796?text=Ol%C3%A1%2C%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os%20da%20Efycaz%20Contabilidade.";
 
 export const CONTACT_LINK = WHATSAPP_URL;
 
 export const company: CompanyInfo = {
-  name: "EfyCaz Contabilidade",
+  name: "Efycaz Contabilidade",
   brandName: "EFYCAZ",
   tagline: "Contabilidade simples, estratégica e feita para o crescimento do seu negócio.",
   subtagline: "Organização • Segurança • Estratégia",
   headline: "Contabilidade que simplifica o seu negócio.",
   subheadline:
-    "Tenha mais clareza para cuidar da sua empresa enquanto a EfyCaz cuida da sua contabilidade com organização, proximidade e segurança.",
+    "Tenha mais clareza para cuidar da sua empresa enquanto a Efycaz cuida da sua contabilidade com organização, proximidade e segurança.",
   
   // Informações Cadastrais Oficiais
   cnpj: "24.011.423/0001-75",
