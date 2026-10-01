@@ -14,16 +14,16 @@ export function Hero() {
       <div className="absolute inset-0 bg-gradient-to-b from-[#252834] to-[#1E2028] opacity-95" />
       <div className="absolute top-0 right-1/4 w-[500px] h-[500px] bg-[#45B3A9]/10 rounded-full blur-[140px] pointer-events-none" />
 
-      {/* LOGO GIGANTE EM SVG ANIMADO CINZA NO FUNDO (SEM CARDS NA FRENTE) */}
-      <div className="absolute top-1/2 right-[-5%] lg:right-[2%] -translate-y-1/2 w-[650px] h-[650px] sm:w-[800px] sm:h-[800px] lg:w-[950px] lg:h-[950px] opacity-[0.07] pointer-events-none select-none">
+      {/* LOGO GIGANTE EM SVG ANIMADO VERDE NO FUNDO */}
+      <div className="absolute top-1/2 right-[-8%] sm:right-[-4%] lg:right-[1%] -translate-y-1/2 w-[650px] h-[650px] sm:w-[850px] sm:h-[850px] lg:w-[1000px] lg:h-[1000px] opacity-[0.16] pointer-events-none select-none">
         <Image
-          src="/images/efycaz-logo-animada-cinza.svg"
+          src="/images/efycaz-logo-animada-teal.svg"
           alt="EfyCaz Contabilidade"
-          width={950}
-          height={950}
+          width={1000}
+          height={1000}
           unoptimized
           priority
-          className="w-full h-full object-contain"
+          className="w-full h-full object-contain filter drop-shadow-[0_0_30px_rgba(77,182,172,0.25)]"
         />
       </div>
 
