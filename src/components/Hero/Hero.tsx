@@ -30,21 +30,28 @@ export function Hero() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10 w-full">
         <div className="max-w-3xl space-y-6 text-left fade-in-section">
           
-          {/* Badge de Confiança e Prova Social */}
-          <div className="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-white/5 border border-white/10 backdrop-blur-md">
-            <div className="flex text-amber-400">
-              {[...Array(5)].map((_, i) => (
-                <Star key={i} className="w-3.5 h-3.5 fill-current" />
-              ))}
+          {/* Identificação da Marca e Prova Social */}
+          <div className="flex flex-wrap items-center gap-3">
+            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#45B3A9]/15 border border-[#45B3A9]/35 text-xs sm:text-sm font-bold text-[#45B3A9] tracking-wide shadow-[0_0_15px_rgba(69,179,169,0.2)]">
+              <span className="w-2 h-2 rounded-full bg-[#45B3A9] animate-pulse" />
+              EfyCaz Contabilidade
             </div>
-            <span className="text-xs sm:text-sm font-semibold text-slate-200">
-              Mais de 2.900 empresas atendidas com nota 4.9/5
-            </span>
+
+            <div className="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-white/5 border border-white/10 backdrop-blur-md">
+              <div className="flex text-amber-400">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className="w-3.5 h-3.5 fill-current" />
+                ))}
+              </div>
+              <span className="text-xs sm:text-sm font-semibold text-slate-200">
+                Mais de 2.900 empresas atendidas (nota 4.9/5)
+              </span>
+            </div>
           </div>
 
           {/* Título Principal Convidativo */}
           <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-[1.15]">
-            A contabilidade que cuida do seu imposto para{" "}
+            EfyCaz: a contabilidade que cuida do seu imposto para{" "}
             <span className="text-[#45B3A9]">
               sua empresa lucrar mais.
             </span>
@@ -52,7 +59,7 @@ export function Hero() {
 
           {/* Subtítulo Acolhedor e Direto */}
           <p className="text-base sm:text-lg text-slate-300 leading-relaxed font-normal max-w-2xl">
-            Cansado de falar com robôs e pagar guias sem entender? Na EfyCaz, você tem contadores especialistas que acompanham seu dia a dia pelo WhatsApp, reduzem sua carga tributária e mantêm seu CNPJ 100% blindado.
+            Cansado de falar com robôs e pagar guias sem entender? Na <strong className="text-white font-semibold">EfyCaz Contabilidade</strong>, você tem contadores especialistas que acompanham seu dia a dia pelo WhatsApp, reduzem sua carga tributária e mantêm seu CNPJ 100% blindado.
           </p>
 
           {/* Chamada para Ação (CTAs Comerciais) */}
