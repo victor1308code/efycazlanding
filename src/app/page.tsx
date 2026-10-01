@@ -10,7 +10,6 @@ import { Testimonials } from "@/components/Testimonials/Testimonials";
 import { About } from "@/components/About/About";
 import { FAQ } from "@/components/FAQ/FAQ";
 import { ContactCTA } from "@/components/ContactCTA/ContactCTA";
-import { Footer } from "@/components/Footer/Footer";
 import { FloatingCTA } from "@/components/FloatingCTA/FloatingCTA";
 import { ScrollObserver } from "@/components/ScrollObserver/ScrollObserver";
 
@@ -40,7 +39,6 @@ export default function Home() {
         <div className="fade-in-section"><ContactCTA /></div>
       </main>
 
-      <Footer />
       <FloatingCTA />
     </div>
   );
