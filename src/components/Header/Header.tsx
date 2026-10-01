@@ -35,26 +35,19 @@ export function Header() {
       >
         <Link
           href="#inicio"
-          className="flex items-center gap-2.5 group focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-primary rounded-full pl-1 shrink-0"
+          className="flex items-center group focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-primary rounded-full pl-1 shrink-0"
           aria-label="EfyCaz Contabilidade"
         >
-          <div className="relative w-7 h-7 sm:w-8 sm:h-8 flex items-center justify-center shrink-0">
+          <div className="relative w-10 h-10 sm:w-11 sm:h-11 flex items-center justify-center shrink-0 transition-transform duration-200 group-hover:scale-105">
             <Image
-              src="/images/emblema.png"
-              alt="EfyCaz"
-              fill
+              src="/images/efycaz-logo-header.svg"
+              alt="EfyCaz Contabilidade"
+              width={46}
+              height={46}
+              unoptimized
               priority
-              className="object-contain filter invert brightness-200"
-              sizes="32px"
+              className="w-full h-full object-contain filter drop-shadow-[0_0_10px_rgba(69,179,169,0.5)]"
             />
-          </div>
-          <div className="flex flex-col">
-            <span className="font-extrabold text-sm sm:text-base tracking-tight text-white leading-none">
-              efycaz<span className="text-brand-primary">.</span>
-            </span>
-            <span className="text-[9px] uppercase tracking-widest text-slate-300 font-semibold leading-none mt-0.5 hidden sm:inline">
-              contabilidade
-            </span>
           </div>
         </Link>
 
