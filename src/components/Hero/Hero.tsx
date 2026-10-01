@@ -30,15 +30,9 @@ export function Hero() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10 w-full">
         <div className="max-w-3xl space-y-6 text-left fade-in-section">
           
-          {/* Identificação Oficial da Marca */}
-          <div className="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-[#45B3A9]/15 border border-[#45B3A9]/35 text-xs sm:text-sm font-bold text-[#45B3A9] tracking-wide shadow-[0_0_15px_rgba(69,179,169,0.2)]">
-            <span className="w-2 h-2 rounded-full bg-[#45B3A9] animate-pulse" />
-            EfyCaz Contabilidade Digital & Consultiva
-          </div>
-
-          {/* Título Principal Convidativo */}
+          {/* Título Principal com Marca em Destaque Animado */}
           <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-[1.15]">
-            EfyCaz: a contabilidade que cuida do seu imposto para{" "}
+            <span className="efycaz-highlight-text">EfyCaz</span>: a contabilidade que cuida do seu imposto para{" "}
             <span className="text-[#45B3A9]">
               sua empresa lucrar mais.
             </span>

@@ -338,3 +338,31 @@ body {
 .animate-sweep-reveal {
   animation: sweepReveal 4s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
 }
+
+/* Animação Luminosa e Fluida para a Marca EfyCaz no Texto */
+@keyframes textGlowShimmer {
+  0% {
+    background-position: 0% 50%;
+    filter: drop-shadow(0 0 12px rgba(69, 179, 169, 0.45));
+  }
+  50% {
+    background-position: 100% 50%;
+    filter: drop-shadow(0 0 24px rgba(94, 234, 212, 0.8));
+  }
+  100% {
+    background-position: 0% 50%;
+    filter: drop-shadow(0 0 12px rgba(69, 179, 169, 0.45));
+  }
+}
+
+.efycaz-highlight-text {
+  background: linear-gradient(120deg, #45B3A9 0%, #A7F3D0 30%, #5EEAD4 60%, #2DD4BF 85%, #45B3A9 100%);
+  background-size: 250% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textGlowShimmer 4s ease-in-out infinite;
+  display: inline-block;
+  font-weight: 900;
+  letter-spacing: -0.01em;
+}
+
