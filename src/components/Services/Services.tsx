@@ -23,7 +23,13 @@ const iconMap: Record<string, React.ElementType> = {
 
 export function Services() {
   return (
-    <section id="servicos" className="py-14 sm:py-18 lg:py-20 bg-gradient-to-b from-[#F0F2F6] via-[#F8F9FA] to-[#E9ECF1] relative overflow-hidden">
+    <section
+      id="servicos"
+      className="pt-14 sm:pt-18 lg:pt-20 pb-20 sm:pb-24 lg:pb-28 relative overflow-hidden"
+      style={{
+        background: "linear-gradient(to bottom, #F0F2F6 0%, #F8F9FA 45%, #ECEEF3 65%, #9DA5B5 80%, #454A5A 92%, #1E2028 100%)",
+      }}
+    >
       {/* Logo Gigante Vetorial Animada Cinza na Lateral com Mais Destaque */}
       <div className="absolute top-1/2 left-[-20%] sm:left-[-10%] -translate-y-1/2 w-[700px] h-[700px] sm:w-[900px] sm:h-[900px] opacity-[0.22] pointer-events-none select-none">
         <Image

@@ -10,7 +10,7 @@ export function Comparison() {
       id="comparativo"
       className="pt-16 lg:pt-20 pb-20 lg:pb-28 relative overflow-hidden"
       style={{
-        background: "linear-gradient(to bottom, #E9ECF1 0%, #262A37 10%, #1F222C 20%, #1E2028 60%, #272C3B 70%, #3C4254 78%, #5E667B 85%, #8E97AB 91%, #C6CDD9 96%, #F5F7FA 100%)",
+        background: "linear-gradient(to bottom, #1E2028 0%, #1E2028 58%, #272C3B 68%, #3C4254 77%, #5E667B 84%, #8E97AB 91%, #C6CDD9 96%, #F5F7FA 100%)",
       }}
     >
       {/* Logo Gigante Vetorial Animada VERDE no fundo escuro com Mais Destaque */}
@@ -30,16 +30,16 @@ export function Comparison() {
         
         {/* Cabeçalho da Seção no estilo Back4You */}
         <div className="max-w-3xl mx-auto text-center space-y-4 mb-12 sm:mb-14">
-          <div className="badge-pill mx-auto">
-            <Zap className="w-3.5 h-3.5 text-brand-primary" aria-hidden="true" />
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#45B3A9]/15 border border-[#45B3A9]/40 text-xs font-bold uppercase tracking-wider text-[#45B3A9] shadow-xs backdrop-blur-sm">
+            <Zap className="w-3.5 h-3.5 text-[#45B3A9]" aria-hidden="true" />
             <span>Transparência & Escolha Consciente</span>
           </div>
 
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-white leading-tight">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-white leading-tight drop-shadow-sm">
             Você confia na sua atual contabilidade?
           </h2>
 
-          <p className="text-base sm:text-lg text-slate-300 leading-relaxed font-normal">
+          <p className="text-base sm:text-lg text-slate-200 leading-relaxed font-normal">
             Muitos empresários só descobrem que a contabilidade anterior estava cometendo erros quando recebem uma notificação fiscal ou percebem que passaram anos recolhendo impostos além do necessário.
           </p>
         </div>
