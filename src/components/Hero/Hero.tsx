@@ -8,14 +8,13 @@ export function Hero() {
   return (
     <section
       id="inicio"
-      className="relative pt-32 pb-20 sm:pt-40 sm:pb-28 lg:pt-44 lg:pb-36 bg-[#1E2028] overflow-hidden flex items-center min-h-[85vh]"
+      className="relative pt-32 pb-24 sm:pt-40 sm:pb-32 lg:pt-44 lg:pb-40 bg-gradient-to-b from-[#1C1E26] via-[#242733] to-[#2B2E3B] overflow-hidden flex items-center min-h-[85vh]"
     >
       {/* Background sutil e sofisticado */}
-      <div className="absolute inset-0 bg-gradient-to-b from-[#252834] to-[#1E2028] opacity-95" />
-      <div className="absolute top-0 right-1/4 w-[500px] h-[500px] bg-[#45B3A9]/10 rounded-full blur-[140px] pointer-events-none" />
+      <div className="absolute top-0 right-1/4 w-[500px] h-[500px] bg-[#45B3A9]/15 rounded-full blur-[140px] pointer-events-none" />
 
-      {/* LOGO GIGANTE EM SVG ANIMADO VERDE NO FUNDO */}
-      <div className="absolute top-1/2 right-[-8%] sm:right-[-4%] lg:right-[1%] -translate-y-1/2 w-[650px] h-[650px] sm:w-[850px] sm:h-[850px] lg:w-[1000px] lg:h-[1000px] opacity-[0.16] pointer-events-none select-none">
+      {/* LOGO GIGANTE EM SVG ANIMADO VERDE NO FUNDO COM MAIOR DESTAQUE */}
+      <div className="absolute top-1/2 right-[-8%] sm:right-[-4%] lg:right-[1%] -translate-y-1/2 w-[650px] h-[650px] sm:w-[850px] sm:h-[850px] lg:w-[1000px] lg:h-[1000px] opacity-[0.25] pointer-events-none select-none">
         <Image
           src="/images/efycaz-logo-animada-teal.svg"
           alt="EfyCaz Contabilidade"
@@ -23,9 +22,12 @@ export function Hero() {
           height={1000}
           unoptimized
           priority
-          className="w-full h-full object-contain filter drop-shadow-[0_0_30px_rgba(77,182,172,0.25)]"
+          className="w-full h-full object-contain filter drop-shadow-[0_0_35px_rgba(69,179,169,0.35)]"
         />
       </div>
+
+      {/* Transição suave em degradê na base do Hero */}
+      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-b from-transparent to-[#2B2E3B] pointer-events-none" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10 w-full">
         <div className="max-w-3xl space-y-6 text-left fade-in-section">

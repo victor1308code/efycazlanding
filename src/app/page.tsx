@@ -20,10 +20,13 @@ export default function Home() {
       
       <main id="main-content" className="flex-1 overflow-hidden">
         <div className="fade-in-section"><Hero /></div>
-        <div className="fade-in-section delay-100"><Stats /></div>
         
-        {/* Carrossel de Texto Contínuo */}
-        <div className="fade-in-section mt-16 mb-8"><Marquee /></div>
+        {/* Transição em degradê suave do Hero para a área Clara */}
+        <div className="bg-gradient-to-b from-[#2B2E3B] via-[#4A4E5E]/20 to-[#ECEEF3] pt-1 pb-4">
+          <div className="fade-in-section delay-100"><Stats /></div>
+          {/* Carrossel de Texto Contínuo */}
+          <div className="fade-in-section mt-10 mb-2"><Marquee /></div>
+        </div>
         
         <div className="fade-in-section"><Benefits /></div>
         <div className="fade-in-section"><Services /></div>

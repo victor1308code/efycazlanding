@@ -7,7 +7,7 @@ import { company } from "@/data/company";
 
 export function ContactCTA() {
   return (
-    <section id="contato" className="py-16 sm:py-20 lg:py-24 bg-[#1E2028] text-white">
+    <section id="contato" className="py-20 sm:py-24 lg:py-28 bg-gradient-to-b from-[#E2E6EE] via-[#222530] to-[#14161E] text-white relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Card Principal Unificado no Estilo Back4You */}
@@ -15,6 +15,18 @@ export function ContactCTA() {
           
           {/* Brilho de fundo sutil */}
           <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-[#45B3A9]/10 rounded-full blur-[120px] pointer-events-none" />
+
+          {/* Logo Gigante Vetorial Animada VERDE de Fundo no Card */}
+          <div className="absolute -bottom-16 -right-16 w-[450px] h-[450px] sm:w-[550px] sm:h-[550px] opacity-[0.20] pointer-events-none select-none">
+            <Image
+              src="/images/efycaz-logo-animada-teal.svg"
+              alt="EfyCaz"
+              width={550}
+              height={550}
+              unoptimized
+              className="w-full h-full object-contain filter drop-shadow-[0_0_35px_rgba(69,179,169,0.35)]"
+            />
+          </div>
 
           {/* Linha Superior Equilibrada: Marca Completa + Status e Cobertura */}
           <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6 pb-8 sm:pb-10 border-b border-white/10">

@@ -55,29 +55,29 @@ const benefitsData = [
 
 export function Benefits() {
   return (
-    <section id="beneficios" className="py-24 sm:py-32 bg-[#1A1C23] overflow-hidden relative">
-      {/* Logo Gigante Vetorial Animada Cinza na Lateral Direita */}
-      <div className="absolute top-1/2 right-[-20%] sm:right-[-12%] -translate-y-1/2 w-[700px] h-[700px] sm:w-[900px] sm:h-[900px] opacity-[0.05] pointer-events-none select-none">
+    <section id="beneficios" className="py-24 sm:py-32 bg-gradient-to-b from-[#ECEEF3] via-[#F5F7FA] to-[#F0F2F6] overflow-hidden relative">
+      {/* Logo Gigante Vetorial Animada Cinza com Mais Destaque no Fundo Claro */}
+      <div className="absolute top-1/2 right-[-20%] sm:right-[-10%] -translate-y-1/2 w-[700px] h-[700px] sm:w-[900px] sm:h-[900px] opacity-[0.22] pointer-events-none select-none">
         <Image
           src="/images/efycaz-logo-animada-cinza.svg"
           alt="EfyCaz"
           width={900}
           height={900}
           unoptimized
-          className="w-full h-full object-contain"
+          className="w-full h-full object-contain filter drop-shadow-[0_0_10px_rgba(160,165,181,0.2)]"
         />
       </div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-3xl mx-auto text-center space-y-4 mb-20 fade-in-section">
-          <div className="badge-pill mx-auto">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#45B3A9]/15 border border-[#45B3A9]/30 text-xs font-bold text-[#1E7068] tracking-wider uppercase">
             <span>Diferenciais EfyCaz</span>
           </div>
 
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-white leading-tight">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-slate-900 leading-tight">
             Seja o CNPJ bem organizado que o mercado exige de você
           </h2>
 
-          <p className="text-base sm:text-lg text-slate-300 leading-relaxed font-normal">
+          <p className="text-base sm:text-lg text-slate-600 leading-relaxed font-normal">
             Apresentamos uma gestão contábil moderna que protege seu patrimônio e libera seu tempo para você cuidar exclusivamente do crescimento da sua empresa.
           </p>
         </div>
@@ -92,25 +92,25 @@ export function Benefits() {
                 className={"flex flex-col md:flex-row items-center gap-10 lg:gap-20 fade-in-section " + (isReversed ? "md:flex-row-reverse" : "")}
               >
                 <div className="flex-1 w-full space-y-6 md:space-y-8">
-                  <span className="inline-block font-mono text-sm font-extrabold text-[#45B3A9] tracking-widest uppercase">
+                  <span className="inline-block font-mono text-sm font-extrabold text-[#1E7068] tracking-widest uppercase">
                     {benefit.tag}
                   </span>
                   
-                  <h3 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white leading-tight">
+                  <h3 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-slate-900 leading-tight">
                     {benefit.title}
                   </h3>
                   
-                  <p className="text-base sm:text-lg text-slate-300 leading-relaxed font-normal">
+                  <p className="text-base sm:text-lg text-slate-600 leading-relaxed font-normal">
                     {benefit.description}
                   </p>
 
                   <ul className="space-y-4 pt-2">
                     {benefit.points.map((point, idx) => (
                       <li key={idx} className="flex items-start gap-3">
-                        <div className="mt-1 w-5 h-5 rounded-full bg-brand-primary/10 flex items-center justify-center shrink-0 border border-brand-primary/30">
-                          <Check className="w-3 h-3 text-brand-primary" />
+                        <div className="mt-1 w-5 h-5 rounded-full bg-[#45B3A9]/15 flex items-center justify-center shrink-0 border border-[#45B3A9]/30">
+                          <Check className="w-3 h-3 text-[#1E7068]" />
                         </div>
-                        <span className="text-sm sm:text-base text-slate-200 font-medium">
+                        <span className="text-sm sm:text-base text-slate-700 font-medium">
                           {point}
                         </span>
                       </li>
