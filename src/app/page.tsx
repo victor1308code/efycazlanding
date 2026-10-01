@@ -6,7 +6,6 @@ import { Marquee } from "@/components/Marquee/Marquee";
 import { Services } from "@/components/Services/Services";
 import { Benefits } from "@/components/Benefits/Benefits";
 import { Comparison } from "@/components/Comparison/Comparison";
-import { Testimonials } from "@/components/Testimonials/Testimonials";
 import { About } from "@/components/About/About";
 import { FAQ } from "@/components/FAQ/FAQ";
 import { ContactCTA } from "@/components/ContactCTA/ContactCTA";
@@ -29,12 +28,7 @@ export default function Home() {
         <div className="fade-in-section"><Benefits /></div>
         <div className="fade-in-section"><Services /></div>
         <div className="fade-in-section"><Comparison /></div>
-        
-        {/* Carrossel Interativo de Depoimentos */}
-        <div className="fade-in-section"><Testimonials /></div>
-        
         <div className="fade-in-section"><About /></div>
-        
         <div className="fade-in-section"><FAQ /></div>
         <div className="fade-in-section"><ContactCTA /></div>
       </main>

@@ -1,6 +1,6 @@
 "use client";
 import React, { useRef } from "react";
-import { Star, ChevronLeft, ChevronRight } from "lucide-react";
+import { Quote, ChevronLeft, ChevronRight } from "lucide-react";
 
 const testimonials = [
   {
@@ -77,12 +77,8 @@ export function Testimonials() {
               key={t.id} 
               className="snap-start shrink-0 w-[85vw] md:w-[400px] bg-[#1A1C23] border border-white/10 p-8 rounded-2xl hover:border-brand-primary/40 transition-colors duration-300"
             >
-              <div className="flex gap-1 mb-6 text-[#4FC1BD]">
-                <Star className="w-4 h-4 fill-current" />
-                <Star className="w-4 h-4 fill-current" />
-                <Star className="w-4 h-4 fill-current" />
-                <Star className="w-4 h-4 fill-current" />
-                <Star className="w-4 h-4 fill-current" />
+              <div className="mb-6 text-[#45B3A9]">
+                <Quote className="w-8 h-8 opacity-60" />
               </div>
               <p className="text-slate-200 text-lg leading-relaxed mb-8 italic">
                 "{t.text}"
