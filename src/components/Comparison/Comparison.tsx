@@ -8,9 +8,9 @@ export function Comparison() {
   return (
     <section
       id="comparativo"
-      className="pt-24 lg:pt-32 pb-32 lg:pb-44 relative overflow-hidden"
+      className="pt-16 lg:pt-20 pb-20 lg:pb-28 relative overflow-hidden"
       style={{
-        background: "linear-gradient(to bottom, #E9ECF1 0%, #262A37 10%, #1F222C 20%, #1E2028 55%, #272C3B 65%, #3C4254 74%, #5E667B 82%, #8E97AB 89%, #C6CDD9 95%, #F5F7FA 100%)",
+        background: "linear-gradient(to bottom, #E9ECF1 0%, #262A37 10%, #1F222C 20%, #1E2028 60%, #272C3B 70%, #3C4254 78%, #5E667B 85%, #8E97AB 91%, #C6CDD9 96%, #F5F7FA 100%)",
       }}
     >
       {/* Logo Gigante Vetorial Animada VERDE no fundo escuro com Mais Destaque */}
@@ -29,7 +29,7 @@ export function Comparison() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
         {/* Cabeçalho da Seção no estilo Back4You */}
-        <div className="max-w-3xl mx-auto text-center space-y-4 mb-16">
+        <div className="max-w-3xl mx-auto text-center space-y-4 mb-12 sm:mb-14">
           <div className="badge-pill mx-auto">
             <Zap className="w-3.5 h-3.5 text-brand-primary" aria-hidden="true" />
             <span>Transparência & Escolha Consciente</span>

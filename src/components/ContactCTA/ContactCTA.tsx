@@ -7,7 +7,7 @@ import { company } from "@/data/company";
 
 export function ContactCTA() {
   return (
-    <section id="contato" className="py-20 sm:py-24 lg:py-28 bg-gradient-to-b from-[#E2E6EE] via-[#222530] to-[#14161E] text-white relative overflow-hidden">
+    <section id="contato" className="pt-12 sm:pt-14 lg:pt-16 pb-16 sm:pb-20 lg:pb-24 bg-gradient-to-b from-[#E2E6EE] via-[#222530] to-[#14161E] text-white relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Card Principal Unificado nas Cores Oficiais da EfyCaz (Grafite Escuro & Teal) */}

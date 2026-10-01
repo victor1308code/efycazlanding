@@ -15,7 +15,7 @@ export function FAQ() {
   };
 
   return (
-    <section id="faq" className="py-24 lg:py-32 bg-gradient-to-b from-[#ECEEF3] via-[#F4F6F9] to-[#E2E6EE] relative overflow-hidden">
+    <section id="faq" className="pt-10 sm:pt-12 lg:pt-14 pb-14 sm:pb-18 lg:pb-20 bg-gradient-to-b from-[#ECEEF3] via-[#F4F6F9] to-[#E2E6EE] relative overflow-hidden">
       {/* Logo Gigante Vetorial Animada Cinza com Mais Destaque no Fundo Claro */}
       <div className="absolute top-1/2 right-[-18%] sm:right-[-10%] -translate-y-1/2 w-[700px] h-[700px] sm:w-[900px] sm:h-[900px] opacity-[0.22] pointer-events-none select-none">
         <Image
@@ -31,7 +31,7 @@ export function FAQ() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
         {/* Cabeçalho */}
-        <div className="text-center space-y-4 mb-14 fade-in-section">
+        <div className="text-center space-y-4 mb-10 sm:mb-12 fade-in-section">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#45B3A9]/15 border border-[#45B3A9]/30 text-xs font-bold text-[#1E7068] tracking-wider uppercase">
             <HelpCircle className="w-3.5 h-3.5 text-[#1E7068]" />
             <span>{faqSectionData.badge}</span>

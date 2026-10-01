@@ -1,12 +1,12 @@
 import React from "react";
 import Image from "next/image";
-import { CheckCircle2, Shield, MapPin, Building, Award, Check } from "lucide-react";
+import { CheckCircle2, Shield, MapPin, Building, Check } from "lucide-react";
 import { aboutSectionData } from "@/data/about";
 import { company } from "@/data/company";
 
 export function About() {
   return (
-    <section id="sobre" className="pt-10 sm:pt-14 lg:pt-16 pb-24 lg:pb-32 bg-gradient-to-b from-[#F5F7FA] via-[#F8F9FA] to-[#ECEEF3] relative overflow-hidden">
+    <section id="sobre" className="pt-8 sm:pt-10 lg:pt-12 pb-10 sm:pb-12 lg:pb-14 bg-gradient-to-b from-[#F5F7FA] via-[#F8F9FA] to-[#ECEEF3] relative overflow-hidden">
       {/* Logo Gigante Vetorial Animada Cinza com Mais Destaque no Fundo Claro */}
       <div className="absolute top-1/2 right-[-18%] sm:right-[-10%] -translate-y-1/2 w-[700px] h-[700px] sm:w-[900px] sm:h-[900px] opacity-[0.22] pointer-events-none select-none">
         <Image
@@ -99,17 +99,6 @@ export function About() {
                 </div>
               </div>
 
-              {/* Card Flutuante de Confiança */}
-              <div className="hidden sm:flex absolute -bottom-6 -right-6 z-20 bg-white p-4 rounded-2xl shadow-xl border border-slate-200/90 items-center gap-3.5 text-slate-900">
-                <div className="w-10 h-10 rounded-xl bg-[#45B3A9]/15 flex items-center justify-center text-[#1E7068]">
-                  <Award className="w-5 h-5" />
-                </div>
-                <div>
-                  <p className="text-xs font-bold text-slate-900">Segurança & Ética</p>
-                  <p className="text-[11px] text-[#1E7068] font-semibold">Profissionais Registrados</p>
-                </div>
-              </div>
-
             </div>
           </div>
 
@@ -151,7 +140,7 @@ export function About() {
                 href={company.whatsappUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2.5 px-8 py-3.5 rounded-full text-sm font-bold bg-[#128D84] hover:bg-[#19AFA4] text-white transition-all shadow-md hover:shadow-lg active:scale-95"
+                className="inline-flex items-center justify-center gap-2.5 px-8 py-3.5 rounded-full text-sm font-bold bg-gradient-to-r from-[#45B3A9] to-[#2B9E93] hover:from-[#4DB6AC] hover:to-[#36AAA0] text-white transition-all shadow-[0_0_20px_rgba(69,179,169,0.3)] hover:shadow-[0_0_25px_rgba(77,182,172,0.45)] active:scale-95"
               >
                 <span>Falar com a Equipe EfyCaz</span>
                 <span className="w-5 h-5 rounded-full bg-white/20 flex items-center justify-center text-xs">

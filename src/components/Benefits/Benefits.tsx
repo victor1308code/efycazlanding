@@ -55,7 +55,7 @@ const benefitsData = [
 
 export function Benefits() {
   return (
-    <section id="beneficios" className="py-24 sm:py-32 bg-gradient-to-b from-[#ECEEF3] via-[#F5F7FA] to-[#F0F2F6] overflow-hidden relative">
+    <section id="beneficios" className="py-14 sm:py-18 lg:py-20 bg-gradient-to-b from-[#ECEEF3] via-[#F5F7FA] to-[#F0F2F6] overflow-hidden relative">
       {/* Logo Gigante Vetorial Animada Cinza com Mais Destaque no Fundo Claro */}
       <div className="absolute top-1/2 right-[-20%] sm:right-[-10%] -translate-y-1/2 w-[700px] h-[700px] sm:w-[900px] sm:h-[900px] opacity-[0.22] pointer-events-none select-none">
         <Image
@@ -69,7 +69,7 @@ export function Benefits() {
         />
       </div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="max-w-3xl mx-auto text-center space-y-4 mb-20 fade-in-section">
+        <div className="max-w-3xl mx-auto text-center space-y-4 mb-12 sm:mb-14 fade-in-section">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#45B3A9]/15 border border-[#45B3A9]/30 text-xs font-bold text-[#1E7068] tracking-wider uppercase">
             <span>Diferenciais EfyCaz</span>
           </div>

@@ -23,7 +23,7 @@ const iconMap: Record<string, React.ElementType> = {
 
 export function Services() {
   return (
-    <section id="servicos" className="py-24 sm:py-32 bg-gradient-to-b from-[#F0F2F6] via-[#F8F9FA] to-[#E9ECF1] relative overflow-hidden">
+    <section id="servicos" className="py-14 sm:py-18 lg:py-20 bg-gradient-to-b from-[#F0F2F6] via-[#F8F9FA] to-[#E9ECF1] relative overflow-hidden">
       {/* Logo Gigante Vetorial Animada Cinza na Lateral com Mais Destaque */}
       <div className="absolute top-1/2 left-[-20%] sm:left-[-10%] -translate-y-1/2 w-[700px] h-[700px] sm:w-[900px] sm:h-[900px] opacity-[0.22] pointer-events-none select-none">
         <Image
@@ -40,7 +40,7 @@ export function Services() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
         {/* Título de Seção Centralizado */}
-        <div className="max-w-3xl mx-auto text-center space-y-4 mb-16 fade-in-section">
+        <div className="max-w-3xl mx-auto text-center space-y-4 mb-12 sm:mb-14 fade-in-section">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#45B3A9]/15 border border-[#45B3A9]/30 text-xs font-bold text-[#1E7068] tracking-wider uppercase">
             <span>Soluções Especializadas</span>
           </div>
