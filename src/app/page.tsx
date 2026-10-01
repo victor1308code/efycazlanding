@@ -10,30 +10,30 @@ import { About } from "@/components/About/About";
 import { FAQ } from "@/components/FAQ/FAQ";
 import { ContactCTA } from "@/components/ContactCTA/ContactCTA";
 import { FloatingCTA } from "@/components/FloatingCTA/FloatingCTA";
-import { ScrollObserver } from "@/components/ScrollObserver/ScrollObserver";
 
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col bg-[#1A1C23] text-white selection:bg-brand-primary selection:text-slate-950 font-sans">
-      <ScrollObserver />
       <Header />
       
       <main id="main-content" className="flex-1 overflow-hidden">
-        <div className="fade-in-section"><Hero /></div>
+        <Hero />
         
-        {/* Transição em degradê suave do Hero para a área Clara */}
-        <div className="bg-gradient-to-b from-[#2B2E3B] via-[#4A4E5E]/20 to-[#ECEEF3] pt-1 pb-4">
-          <div className="fade-in-section delay-100"><Stats /></div>
-          {/* Carrossel de Texto Contínuo */}
-          <div className="fade-in-section mt-10 mb-2"><Marquee /></div>
+        {/* Faixa de Estatísticas e Barra em Movimento no fundo do Hero */}
+        <div className="relative z-20 bg-gradient-to-b from-[#2B2E3B] via-[#4A4E5E]/20 to-[#ECEEF3] pt-1 pb-0">
+          <Stats />
+          {/* Barra em movimento ocupando toda a largura na base */}
+          <div className="w-full mt-10">
+            <Marquee />
+          </div>
         </div>
         
-        <div className="fade-in-section"><Benefits /></div>
-        <div className="fade-in-section"><Services /></div>
-        <div className="fade-in-section"><Comparison /></div>
-        <div className="fade-in-section"><About /></div>
-        <div className="fade-in-section"><FAQ /></div>
-        <div className="fade-in-section"><ContactCTA /></div>
+        <Benefits />
+        <Services />
+        <Comparison />
+        <About />
+        <FAQ />
+        <ContactCTA />
       </main>
 
       <FloatingCTA />

@@ -268,12 +268,10 @@ body {
   box-shadow: 0 16px 32px -8px rgba(0, 0, 0, 0.5), 0 0 20px -4px rgba(79, 193, 189, 0.2);
 }
 
-/* Animação de Entrada com Scroll (IntersectionObserver) solicitada */
+/* Seções sem animação de corte de scroll (degradês contínuos e perfeitos) */
 .fade-in-section {
-  opacity: 0;
-  transform: translateY(40px) scale(0.98);
-  transition: opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1), transform 0.9s cubic-bezier(0.16, 1, 0.3, 1);
-  will-change: opacity, transform;
+  opacity: 1;
+  transform: none;
 }
 
 .fade-in-section.is-visible {
