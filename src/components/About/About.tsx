@@ -118,10 +118,10 @@ export function About() {
               <p>{aboutSectionData.paragraph2}</p>
             </div>
 
-            {/* Pilares Institucionais com Cards Claros */}
+            {/* Pilares Institucionais com Cards Claros Padronizados */}
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-4 border-t border-slate-200">
               {aboutSectionData.pillars.map((pillar) => (
-                <div key={pillar.title} className="p-4 rounded-2xl bg-white border border-slate-200/90 shadow-xs hover:border-[#45B3A9] transition-colors">
+                <div key={pillar.title} className="p-4 rounded-2xl bg-white border border-slate-200/90 shadow-xs hover:border-[#45B3A9] transition-colors flex flex-col justify-start h-full">
                   <div className="flex items-center gap-2 mb-1.5">
                     <CheckCircle2 className="w-4 h-4 text-[#1E7068] shrink-0" aria-hidden="true" />
                     <h4 className="text-sm font-bold text-slate-900">

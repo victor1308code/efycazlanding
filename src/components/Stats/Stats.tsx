@@ -99,10 +99,10 @@ export function Stats() {
             </h3>
           </div>
 
-          <div className="md:col-span-8 grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-4 text-left">
+          <div className="md:col-span-8 grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-6 lg:gap-8 text-left">
             
             {/* Stat 1: +2 933 */}
-            <div className="space-y-1">
+            <div className="space-y-1 sm:border-r sm:border-white/10 sm:pr-4">
               <span className="text-3xl sm:text-4xl font-extrabold text-[#45B3A9] font-mono tracking-tight">
                 <CounterItem
                   target={2933}
@@ -117,7 +117,7 @@ export function Stats() {
             </div>
 
             {/* Stat 2: 18 */}
-            <div className="space-y-1">
+            <div className="space-y-1 sm:border-r sm:border-white/10 sm:pr-4">
               <span className="text-3xl sm:text-4xl font-extrabold text-[#45B3A9] font-mono tracking-tight">
                 <CounterItem
                   target={18}

@@ -68,19 +68,19 @@ export function Hero() {
             </a>
           </div>
 
-          {/* Redutores de Fricção / Garantias */}
-          <div className="pt-4 grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs sm:text-sm text-slate-300">
-            <div className="flex items-center gap-2">
+          {/* Redutores de Fricção / Garantias Padronizadas */}
+          <div className="pt-4 flex flex-wrap items-center gap-x-6 sm:gap-x-8 gap-y-2.5 text-xs sm:text-sm text-slate-300">
+            <div className="flex items-center gap-2 shrink-0">
               <CheckCircle2 className="w-4 h-4 text-[#45B3A9] shrink-0" />
-              <span>Diagnóstico tributário gratuito</span>
+              <span className="whitespace-nowrap">Diagnóstico tributário gratuito</span>
             </div>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 shrink-0">
               <CheckCircle2 className="w-4 h-4 text-[#45B3A9] shrink-0" />
-              <span>Atendimento humanizado</span>
+              <span className="whitespace-nowrap">Atendimento humanizado</span>
             </div>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 shrink-0">
               <CheckCircle2 className="w-4 h-4 text-[#45B3A9] shrink-0" />
-              <span>Troca de contador sem atrito</span>
+              <span className="whitespace-nowrap">Troca de contador sem atrito</span>
             </div>
           </div>
 
